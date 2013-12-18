@@ -6,7 +6,7 @@ class Savon::Operation
 
   def create_response response
     stmp = Time.now.to_i.to_s
-    file_name = "#{instance_variable_get :@name}_#{stmp}.txt"
+    file_name = "#{instance_variable_get :@name}_#{stmp}.xml"
     buffer = StringIO.new
     xmldoc = REXML::Document.new response.body
     xmldoc.write buffer, 1

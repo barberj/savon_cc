@@ -1,6 +1,6 @@
-# SavonCc
+# SavonCC
 
-TODO: Write a gem description
+CarbonCopy Savon responses to disk for mocking use later
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just require gem and it will write response down to disk in the format '#{operation_name}_#{timestamp}.xml'
+
+  ```ruby
+    require 'savon_cc'
+  ```
 
 ## Contributing
 
