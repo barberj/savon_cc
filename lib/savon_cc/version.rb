@@ -1,3 +1,3 @@
-module SavonCc
+module SavonCC
   VERSION = "0.0.1"
 end

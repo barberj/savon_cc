@@ -5,7 +5,7 @@ require 'savon_cc/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "savon_cc"
-  spec.version       = SavonCc::VERSION
+  spec.version       = SavonCC::VERSION
   spec.authors       = ["barberj"]
   spec.email         = ["barber.justin@gmail.com"]
   spec.description   = %q{Document Savon responses for mocking}
